@@ -1,0 +1,10 @@
+
+public class Class2 {
+	public static void main(String[] a) {
+		HelloWorld person =new HelloWorld();
+		person.name="Abc";
+		person.age=22;
+		System.out.println(person.name +"\n"+person.age);
+		
+	}
+}

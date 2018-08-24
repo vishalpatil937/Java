@@ -1,0 +1,10 @@
+
+public class ArrayTest {
+	public static void test(int intArr[]) {
+		for(int i :intArr)
+			System.out.println(i);
+	}
+	public static void main() {
+		 test(new int[]  {1,2,3,4,5});
+	}
+}

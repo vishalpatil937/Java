@@ -1,0 +1,8 @@
+package Test2;
+
+public class Zero {
+	public static void main(String[] s) {
+		int arr[]={5,8,0,1,4,0,3,9,7,0};
+		
+	}
+}

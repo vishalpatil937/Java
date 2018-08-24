@@ -1,0 +1,9 @@
+package Test2;
+
+public class Test2 {
+	public static void main(String s[]) {
+		Person p=new Person();
+		p.addDOB(12, "tr", 321);
+		Person.dob.getDate();
+	}	
+}

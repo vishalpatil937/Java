@@ -1,0 +1,35 @@
+package Test2;
+
+public class Duplicate_elem {
+	static int visited[];
+	public static void main(String a[]) {
+		int arr[]= {214,921,552,180,900,125,124,584,214};
+		visited=new int[arr.length];
+		for(int i=0;i<arr.length;i++)
+			visited[i]=0;
+		System.out.println("The initial length of array is: "+arr.length);
+		
+	}
+	public static int remove_dupl(int arr[]) {
+		int temp;
+		for(int i=0;i<arr.length;i++) {
+			temp=arr[i];
+			if(contains(arr,arr[i])) {
+				
+			}
+		}
+	}
+	
+	public static int contains(int arr[],int elem) {
+		int index=-1;
+		for(int i=0;i<arr.length;i++) {
+			if(arr[i]==elem) {
+				index=i;
+				break;
+			}
+		}
+		return index;
+	}
+	
+}
+

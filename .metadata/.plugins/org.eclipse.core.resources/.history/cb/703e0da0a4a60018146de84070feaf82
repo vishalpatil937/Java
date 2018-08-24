@@ -1,0 +1,15 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Employee {
+	private List<String> design =new ArrayList<String>();
+	private String[] name;
+	private String[] dept;
+	private int[] salary;
+	
+	Employee(String empname,String dept,String design,int salary){
+		
+	}
+	
+}
+

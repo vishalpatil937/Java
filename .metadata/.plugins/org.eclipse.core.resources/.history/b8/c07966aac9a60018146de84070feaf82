@@ -1,0 +1,19 @@
+package Test2;
+
+import java.util.Scanner;
+
+public class Test2 {
+	public static void main(String s[]) {
+		Person[] p=new Person[3];
+		Scanner sc =new Scanner(System.in);
+		int i=sc.nextInt();
+		for(int j=0;j<i;j++) {
+			  p[j] =new Person();
+			  p[j].setName();
+			  p[j].setDept(sc.next());
+			  p[j].setDesign(sc.next());
+			  p[j].setSalary(sc.nextInt());
+		}
+	}	
+}
+sc.next()

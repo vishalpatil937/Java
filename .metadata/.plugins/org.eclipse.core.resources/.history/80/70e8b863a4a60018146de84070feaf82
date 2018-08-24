@@ -1,0 +1,9 @@
+
+
+public class Employee {
+	private String[] design;
+	private String[] name;
+	private String[] dept;
+	private int[] salary;
+}
+

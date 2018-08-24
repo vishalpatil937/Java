@@ -1,0 +1,17 @@
+package Test2;
+
+public class Test2 {
+	
+	public static void main(String s[]) {
+		Person p=new Person();
+		p.setDob(12, "MONTH", 1800);
+		p.setPerson_ID(1324);
+		p.setPerson_name("Hola Amigo");
+		p.setPerson_telephone(78465321);
+		System.out.println(p.getDob());
+	}
+	
+	
+}
+
+
