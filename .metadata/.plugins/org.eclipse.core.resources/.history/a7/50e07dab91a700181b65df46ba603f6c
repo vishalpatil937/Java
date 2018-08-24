@@ -1,0 +1,36 @@
+package Test2;
+
+public class HappyNumber {
+	public static void main(String a[]) {
+		int number=3;
+		happy(number);
+		
+		
+	}
+	static void happy(int number) {
+		int sum=0;
+		int repeat=0;
+		int i=0;
+		while(number!=1) {
+			sum=0;
+			while(number>0) {
+				sum+=(int) Math.pow(number%10, 2);
+				number/=10;
+			}
+			number=sum;
+			if(i==0) {
+				repeat=number;
+				System.out.println("repeat="repeat);
+				i++;
+			}
+			else {
+				if(repeat==number) {
+					System.out.println("Not a happy number");
+					break;
+				}
+				
+			}
+			System.out.println(sum);
+		}
+	}
+}	

@@ -1,0 +1,14 @@
+package Test2;
+
+public class HappyNumber {
+	public static void main(String a[]) {
+		int number=19;
+		
+	}
+	static void happy() {
+		int sum=number;
+		while(true) {
+			
+		}
+	}
+}	

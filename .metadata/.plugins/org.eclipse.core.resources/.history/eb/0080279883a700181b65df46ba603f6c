@@ -1,0 +1,9 @@
+package Test2;
+
+import java.util.Scanner;
+
+public class PrimeFactors {
+	Scanner sc=new Scanner(System.in);
+	int number;
+	number=sc.nextInt();
+}

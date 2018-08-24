@@ -1,0 +1,28 @@
+package Test2;
+
+import java.util.Scanner;
+public class PrimeFactors {
+	public static void main(String s[]) {
+		Scanner sc=new Scanner(System.in);
+		int number=sc.nextInt();
+		primefactors(20);
+	}
+	
+	public static void primefactors(int number) {
+		int flag=1;
+		int range=(int)Math.sqrt(number);
+		for(int j=2;j<number/2;j++) {
+			for(int i=2;i<(int)Math.sqrt(j);i++) {
+				if(j%i==0) {
+					flag=0;
+					break;
+				}
+				else {
+					flag=1;
+				}
+			}
+			if(flag==1)
+				System.out.println(j);
+		}
+	}
+}

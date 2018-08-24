@@ -1,0 +1,43 @@
+package Test2;
+
+public class HappyNumber {
+	public static void main(String a[]) {
+		int number=3;
+		happy(number);
+		
+		
+	}
+	static int sqsum(int num) {
+		int sum=0;
+		while(num>0) {
+			sum+=(int) Math.pow(num%10, 2);
+			num/=10;
+		}
+		return sum;
+	}
+	static void happy(int number) {
+		int sq,sqsq;
+//		int repeat=0;
+//		int i=0;
+		sq=sqsum(number);
+		sqsq=sqsum(sqsum(number));
+		while() {
+			number=sqsum(number);
+			
+//			if(i==0) {
+//				repeat=number;
+//				System.out.println("repeat="+repeat);
+//				i++;
+//			}
+//			else {
+//				System.out.println("In else\t repeat="+repeat);
+//				if(repeat==number) {
+//					System.out.println("Not a happy number");
+//					break;
+//				}
+//				
+//			}
+			System.out.println(sum);
+		}
+	}
+}	
