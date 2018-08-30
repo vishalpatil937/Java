@@ -1,7 +1,0 @@
-package Test2;
-
-public class HappyNumber {
-	public static void main(String a[]) {
-		
-	}
-}	

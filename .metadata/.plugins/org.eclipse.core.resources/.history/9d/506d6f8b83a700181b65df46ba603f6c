@@ -1,5 +1,0 @@
-package Test2;
-
-public class PrimeFactors {
-	Scanner sc=new Scanner(System.in)
-}

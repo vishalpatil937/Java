@@ -27,9 +27,7 @@ public class HappyNumber {
 				if(op==1)
 					System.out.println(i);
 			}
-		}
-		
-		
+		}	
 	}
 	static int sqsum(int num) {
 		int sum=0;
