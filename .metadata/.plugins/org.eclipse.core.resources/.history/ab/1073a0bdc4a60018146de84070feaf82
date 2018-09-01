@@ -1,7 +1,0 @@
-package Test2;
-
-public class DOB {
-	private int day;
-	private int year;
-	private String month;
-}

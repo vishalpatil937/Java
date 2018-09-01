@@ -9,6 +9,8 @@ public class ConsumerThread extends Thread{
 	@Override
 	public void run() {
 		while(true) {
+//			String op;
+//			op=test.getNum();
 			System.out.println("GOT: "+test.getNum());
 		}
 	}

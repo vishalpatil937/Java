@@ -1,8 +1,0 @@
-package Test2;
-
-public class Duplicate_elem {
-	public static void main(String a[]) {
-		int arr[]= {214,921,552,180,900,125,124,584,214};
-		System.out.println("The initial length of array is: "+arr.length);
-	}
-}

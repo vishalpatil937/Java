@@ -1,9 +1,13 @@
 package com.xoriant.multithreading;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Test {
-	private int num;
+	private FileWriter fw=null;
+	private String input;
 	private boolean flag=true;
-	public synchronized int getNum() {
+	public synchronized String getNum() {
 		if(flag==true) {
 			try {
 				wait();
@@ -13,11 +17,10 @@ public class Test {
 		}
 		flag=true;
 		notify();
-		return num;
+		return input;
 	}
 
-	public synchronized void setNum(int num) {
-		
+	public synchronized void setNum(String input) {
 		if(flag==false) {
 			try {
 				wait();
@@ -25,8 +28,17 @@ public class Test {
 				e.printStackTrace();
 			}
 		}		
-		this.num = num;
-		System.out.println("PUT: "+num);
+		this.input = input;
+		System.out.println("PUT: "+input);
+		try {
+			fw=new FileWriter("copied_file",true);
+			fw.write("\n");
+			fw.write(input);
+			fw.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		flag=false;
 		notify();
 	}

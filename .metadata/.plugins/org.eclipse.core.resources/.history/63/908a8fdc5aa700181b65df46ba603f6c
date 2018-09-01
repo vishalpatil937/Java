@@ -1,7 +1,0 @@
-package Test2;
-
-public class Assessment9 {
-	public static void main(String a[]) {
-		int arr[]= {214,921,552,180,900,125,124,584};
-	}
-}
