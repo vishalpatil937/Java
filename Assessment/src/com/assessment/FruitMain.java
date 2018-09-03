@@ -1,9 +1,15 @@
 package com.assessment;
 
 import java.util.ArrayList;
+import static java.util.Comparator.comparing;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.groupingBy;
+import static java.util.stream.Collectors.mapping;
+import static java.util.stream.Collectors.toMap;
 import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 
 public class FruitMain {
 	public static void main(String[] args) {
@@ -55,6 +61,33 @@ public class FruitMain {
 		Collections.sort(Red,f::compareByPrice);
 		for(Fruit red:Red)
 			System.out.println(red);
+		
+		
+//		Using Stream
+		System.out.println(fruit.stream()
+					.filter(p->p.getCalories()<100)
+					.sorted(comparing(Fruit::getCalories).reversed())
+//					.map(p->p.getName())
+					.collect(toMap(Fruit::getName,Fruit::getCalories))
+				);
+		
+		System.out.println(fruit.stream()
+			.collect(groupingBy(Fruit::getColor))
+		);
+		
+//		Group By colors
+		Map<String, List<Fruit>> color= fruit.stream()
+				.collect(groupingBy(Fruit::getColor));								
+		
+//		Display all fruit names of red color
+		System.out.println(color.get("red").stream()
+				.map(Fruit::getName)
+				.collect(toList())
+		);
+		
+		List<Fruit> fruits=color.get("red").stream()
+				.collect(toList());
+		System.out.println(fruits.stream().sorted(comparing(Fruit::getPrice)).collect(toList()));
 		
 	}
 }
