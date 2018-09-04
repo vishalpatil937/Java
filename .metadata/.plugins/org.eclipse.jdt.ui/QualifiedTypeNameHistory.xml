@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.ObjectOutputStream"/>
-<fullyQualifiedTypeName name="java.io.FileReader"/>
-<fullyQualifiedTypeName name="java.io.BufferedWriter"/>
-<fullyQualifiedTypeName name="java.io.BufferedReader"/>
-<fullyQualifiedTypeName name="java.io.InputStreamReader"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="com.xoriant.multithreading.ProducerThread"/>
-<fullyQualifiedTypeName name="java.io.FileWriter"/>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
 <fullyQualifiedTypeName name="java.io.DataInputStream"/>
 <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
 <fullyQualifiedTypeName name="java.io.DataOutputStream"/>
@@ -17,9 +8,7 @@
 <fullyQualifiedTypeName name="com.xoriant.multithreading.WriteFileThread"/>
 <fullyQualifiedTypeName name="com.xoriant.multithreading.ReadFileThread"/>
 <fullyQualifiedTypeName name="java.util.LinkedHashSet"/>
-<fullyQualifiedTypeName name="java.util.Comparator"/>
 <fullyQualifiedTypeName name="com.xoriant.collections_demo.Customer_id_comparator"/>
-<fullyQualifiedTypeName name="java.util.Collection"/>
 <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
 <fullyQualifiedTypeName name="com.xoriant.collections_demo.Person"/>
 <fullyQualifiedTypeName name="java.util.Set"/>
@@ -29,12 +18,9 @@
 <fullyQualifiedTypeName name="com.xoriant.collections_demo.Assessment"/>
 <fullyQualifiedTypeName name="java.util.NavigableSet"/>
 <fullyQualifiedTypeName name="java.util.NavigableMap"/>
-<fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="java.util.TreeMap"/>
 <fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthSeparatorUI"/>
 <fullyQualifiedTypeName name="java.util.SortedSet"/>
-<fullyQualifiedTypeName name="java.util.Map"/>
-<fullyQualifiedTypeName name="java.util.Map.Entry"/>
 <fullyQualifiedTypeName name="com.xoriant.java8features.Greetings"/>
 <fullyQualifiedTypeName name="com.xoriant.java8features.Operations"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
@@ -47,17 +33,31 @@
 <fullyQualifiedTypeName name="com.xoriant.java8features.Vehicle"/>
 <fullyQualifiedTypeName name="com.xoriant.java8features.AnInterface"/>
 <fullyQualifiedTypeName name="com.xoriant.java8features.Aninterface2"/>
-<fullyQualifiedTypeName name="com.assessment.Fruit"/>
-<fullyQualifiedTypeName name="java.util.Collections"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
 <fullyQualifiedTypeName name="java.time.LocalDate"/>
 <fullyQualifiedTypeName name="javax.swing.text.html.parser.ParserDelegator"/>
 <fullyQualifiedTypeName name="java.time.LocalTime"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.sql.Array"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="java.util.function.Consumer"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="Date.Dish.Type"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="Date.Dish"/>
+<fullyQualifiedTypeName name="java.util.Collection"/>
+<fullyQualifiedTypeName name="java.util.stream.Collectors"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="Date.Employee"/>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="Date.BankAccount"/>
+<fullyQualifiedTypeName name="com.assessment.Fruit"/>
+<fullyQualifiedTypeName name="org.omg.CORBA.INTERNAL"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.stream.Stream"/>
 <fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="com.assessment.News"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
 </qualifiedTypeNameHistroy>
